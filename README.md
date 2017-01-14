@@ -129,7 +129,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 
 **Ch 13 - Java**
 - [X] [01 - Private Constructor](../master/src/com/deepak/ctci/Ch13_Java/Problem_01.java)
-- [ ] 02 - Return from Finally
+- [X] [02 - Return from Finally](../master/src/com/deepak/ctci/Ch13_Java/Problem_02.java)
 - [ ] 03 - Final etc
 - [ ] 04 - Generics v/s Templates
 - [ ] 05 - TreeMap, HashMap, LinkedHashMap
