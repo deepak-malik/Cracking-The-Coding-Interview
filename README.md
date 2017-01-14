@@ -128,7 +128,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 06 - Test an ATM
 
 **Ch 13 - Java**
-- [ ] 01 - Private Constructor
+- [X] [01 - Private Constructor](../master/src/com/deepak/ctci/Ch13_Java/Problem_01.java)
 - [ ] 02 - Return from Finally
 - [ ] 03 - Final etc
 - [ ] 04 - Generics v/s Templates
