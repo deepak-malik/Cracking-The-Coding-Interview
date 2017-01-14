@@ -130,9 +130,9 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 **Ch 13 - Java**
 - [X] [01 - Private Constructor](../master/src/com/deepak/ctci/Ch13_Java/Problem_01.java)
 - [X] [02 - Return from Finally](../master/src/com/deepak/ctci/Ch13_Java/Problem_02.java)
-- [ ] 03 - Final etc
+- [X] [03 - Final etc](../master/src/com/deepak/ctci/Ch13_Java/Problem_03.java)
 - [ ] 04 - Generics v/s Templates
-- [ ] 05 - TreeMap, HashMap, LinkedHashMap
+- [X] [05 - TreeMap, HashMap, LinkedHashMap](../master/src/com/deepak/ctci/Ch13_Java/Problem_05.java)
 - [ ] 06 - Object Reflection
 - [X] [07 - Lambda Expressions](../master/src/com/deepak/ctci/Ch13_Java/Problem_07.java)
 - [X] [08 - Lambda Random](../master/src/com/deepak/ctci/Ch13_Java/Problem_08.java)
