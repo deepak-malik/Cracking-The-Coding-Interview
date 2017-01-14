@@ -134,7 +134,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 04 - Generics v/s Templates
 - [ ] 05 - TreeMap, HashMap, LinkedHashMap
 - [ ] 06 - Object Reflection
-- [ ] 07 - Lambda Expressions
+- [X] 07 - Lambda Expressions
 - [ ] 08 - Lambda Random
 
 **Ch 14 - Databases**
