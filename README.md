@@ -135,7 +135,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 05 - TreeMap, HashMap, LinkedHashMap
 - [ ] 06 - Object Reflection
 - [X] [07 - Lambda Expressions](../master/src/com/deepak/ctci/Ch13_Java/Problem_07.java)
-- [ ] 08 - Lambda Random
+- [X] [08 - Lambda Random](../master/src/com/deepak/ctci/Ch13_Java/Problem_08.java)
 
 **Ch 14 - Databases**
 - [ ] 01 - Multiple Apartments
