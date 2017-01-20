@@ -5,12 +5,12 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [X] [01 - Is Unique](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_01.java)
 - [X] [02 - Check Permutation](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_02.java)
 - [X] [03 - URLify](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_03.java)
-- [ ] 04 - Palindrome Permutation
-- [ ] 05 - One Away
-- [ ] 06 - String Compression
-- [ ] 07 - Rotate Matrix
-- [ ] 08 - Zero Matrix
-- [ ] 09 - String Rotation
+- [X] [04 - Palindrome Permutation](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_04.java)
+- [X] [05 - One Away](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_05.java)
+- [X] [06 - String Compression](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_06.java)
+- [X] [07 - Rotate Matrix](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_07.java)
+- [X] [08 - Zero Matrix](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_08.java)
+- [X] [09 - String Rotation](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_09.java)
 
 **Ch 02 - Linked List**
 - [ ] 01 - Remove Dups
