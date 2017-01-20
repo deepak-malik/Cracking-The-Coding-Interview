@@ -10,8 +10,8 @@ package com.deepak.ctci.Ch01_ArraysAndStrings;
  * to hold additional characters, and you are given the true length
  * of the string.
  * 
- * ex. Input : "Mr John Smith     ", 13
- * 	   Output : "Mr%20John%20Smith"
+ * ex. Input : "Mr John Smith     ", 13 
+ * Output : "Mr%20John%20Smith"
  * 
  * @author Deepak
  */
