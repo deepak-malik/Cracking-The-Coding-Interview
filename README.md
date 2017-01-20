@@ -4,7 +4,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 **Ch 01 - Arrays and Strings**  
 - [X] [01 - Is Unique](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_01.java)
 - [X] [02 - Check Permutation](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_02.java)
-- [ ] 03 - URLify
+- [X] [03 - URLify](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_03.java)
 - [ ] 04 - Palindrome Permutation
 - [ ] 05 - One Away
 - [ ] 06 - String Compression
