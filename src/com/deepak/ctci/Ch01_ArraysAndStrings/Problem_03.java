@@ -5,6 +5,8 @@
 package com.deepak.ctci.Ch01_ArraysAndStrings;
 
 /**
+ * <br> Problem Statement :
+ * 
  * Write a method to replace all spaces with the string "%20".
  * You may assume that the string has sufficient space at the end,
  * to hold additional characters, and you are given the true length
@@ -12,6 +14,8 @@ package com.deepak.ctci.Ch01_ArraysAndStrings;
  * 
  * ex. Input : "Mr John Smith     ", 13 
  * Output : "Mr%20John%20Smith"
+ * 
+ * </br>
  * 
  * @author Deepak
  */
