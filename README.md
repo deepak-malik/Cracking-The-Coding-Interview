@@ -16,11 +16,11 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [X] [01 - Remove Duplicates](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_01.java)
 - [X] [02 - Return K'th to Last](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_02.java)
 - [X] [03 - Delete Middle Node](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_03.java)
-- [X] [04 - Partition](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_03.java)
+- [X] [04 - Partition](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_04.java)
 - [ ] 05 - Sum Lists
 - [ ] 06 - Palindrome
 - [ ] 07 - Intersection
-- [ ] 08 - Loop Detection
+- [X] [08 - Loop Detection](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_08.java)
 
 **Ch 03 - Stacks and Queues**  
 - [ ] 01 - Three in One

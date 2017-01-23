@@ -20,7 +20,7 @@ package com.deepak.ctci.Ch02_LinkedLists;
  * Repeat the above problem.
  * 
  * Ex. Input : (6 -> 1 -> 7) + (2 -> 9 -> 5). That's 617 + 295
- * Output : 2 -> 1 > 9. That is, 912
+ * Output : 9 -> 1 > 2. That is, 912
  * 
  * </br>
  * 
