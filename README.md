@@ -18,7 +18,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [X] [03 - Delete Middle Node](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_03.java)
 - [X] [04 - Partition](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_04.java)
 - [ ] 05 - Sum Lists
-- [ ] 06 - Palindrome
+- [X] [06 - Palindrome](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_06.java)
 - [ ] 07 - Intersection
 - [X] [08 - Loop Detection](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_08.java)
 
