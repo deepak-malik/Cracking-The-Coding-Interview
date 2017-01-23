@@ -32,7 +32,7 @@ public class Problem_01 {
 	 * 
 	 * @param head
 	 */
-	public static void removeDuplicatesWithBuffer(LinkedListNode<String> head) {
+	public static <T> void removeDuplicatesWithBuffer(LinkedListNode<T> head) {
 		/* If head is null, stop processing */
 		if (head == null) {
 			return;
@@ -40,9 +40,9 @@ public class Problem_01 {
 		/* We need just one pointer here i.e previous to keep track of
 		 * previous node, because if we find duplicate, we have to remove 
 		 * current node and point previous to next */
-		Set<String> set = new HashSet<>();
-		LinkedListNode<String> current = head;
-		LinkedListNode<String> previous = null;
+		Set<T> set = new HashSet<>();
+		LinkedListNode<T> current = head;
+		LinkedListNode<T> previous = null;
 		/* Check until current is not null, we will be incrementing current */
 		while (current != null) {
 			/* If value doesn't exist in set, add it
@@ -66,7 +66,7 @@ public class Problem_01 {
 	 * 
 	 * @param head
 	 */
-	public static void removeDuplicatesWithoutBuffer(LinkedListNode<String> head) {
+	public static <T> void removeDuplicatesWithoutBuffer(LinkedListNode<T> head) {
 		/* If head is null, stop processing */
 		if (head == null) {
 			return;
@@ -74,10 +74,10 @@ public class Problem_01 {
 		/* We will need two pointers here i.e current and runner.
 		 * When current is pointing to a node, move runner through
 		 * rest of the list, checking for duplicates */
-		LinkedListNode<String> current = head;
+		LinkedListNode<T> current = head;
 		while (current != null) {
 			/* Have runner point to current node */
-			LinkedListNode<String> runner = current;
+			LinkedListNode<T> runner = current;
 			while (runner.next != null) {
 				/* If it is duplicate, jump runner over the node */
 				if (runner.next.data == current.data) {

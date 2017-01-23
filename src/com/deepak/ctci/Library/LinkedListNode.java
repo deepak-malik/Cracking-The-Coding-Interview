@@ -62,4 +62,5 @@ public class LinkedListNode<T> {
 		LinkedListNode<T> head = new LinkedListNode<T>(data, nextNode, null);
 		return head;
 	}
+
 }
