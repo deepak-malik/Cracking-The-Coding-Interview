@@ -4,6 +4,8 @@
  */
 package com.deepak.ctci.Ch02_LinkedLists;
 
+import com.deepak.ctci.Library.LinkedListNode;
+
 /**
  * <br> Problem Statement : 
  * 
@@ -24,5 +26,35 @@ package com.deepak.ctci.Ch02_LinkedLists;
  * @author Deepak
  */
 public class Problem_04 {
+
+	/**
+	 * Method to partition the linked list based on a number
+	 * Not keeping it generic because this is specifically for Integers
+	 * 
+	 * @param node
+	 * @param x
+	 * @return {@link LinkedListNode}
+	 */
+	public static LinkedListNode<Integer> partition(LinkedListNode<Integer> node, int x) {
+		/* Mark both head and tail as given node */
+		LinkedListNode<Integer> head = node;
+		LinkedListNode<Integer> tail = node;
+		/* Keep checking until node is null */
+		while (node != null) {
+			LinkedListNode<Integer> next = node.next;
+			if (node.data < x) {
+				/* If node is smaller then X, Insert at head */
+				node.next = head;
+				head = node;
+			} else {
+				/* If node is greater then X, Insert at tail */
+				tail.next = node;
+				tail = node;
+			}
+			node = next;
+		}
+		tail.next = null;
+		return head;
+	}
 
 }
