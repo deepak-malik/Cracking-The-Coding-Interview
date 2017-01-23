@@ -13,7 +13,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [X] [09 - String Rotation](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_09.java)
 
 **Ch 02 - Linked List**
-- [ ] 01 - Remove Dups
+- [X] [01 - Remove Duplicates](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_01.java)
 - [ ] 02 - Return Kth to Last
 - [ ] 03 - Delete Middle Node
 - [ ] 04 - Partition

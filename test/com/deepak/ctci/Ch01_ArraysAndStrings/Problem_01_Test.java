@@ -26,7 +26,7 @@ public class Problem_01_Test {
 	}
 
 	/**
-	 * test case to check the uniqueness of Unicode strings
+	 * Test case to check the uniqueness of Unicode strings
 	 */
 	@Test
 	public void testUniqueCharactersForUnicodeString() {
