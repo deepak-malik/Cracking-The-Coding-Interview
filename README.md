@@ -15,7 +15,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 **Ch 02 - Linked List**
 - [X] [01 - Remove Duplicates](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_01.java)
 - [X] [02 - Return K'th to Last](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_02.java)
-- [ ] 03 - Delete Middle Node
+- [X] [03 - Delete Middle Node](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_03.java)
 - [ ] 04 - Partition
 - [ ] 05 - Sum Lists
 - [ ] 06 - Palindrome
