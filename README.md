@@ -19,7 +19,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [X] [04 - Partition](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_04.java)
 - [ ] 05 - Sum Lists
 - [X] [06 - Palindrome](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_06.java)
-- [ ] 07 - Intersection
+- [X] [07 - Intersection](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_07.java)
 - [X] [08 - Loop Detection](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_08.java)
 
 **Ch 03 - Stacks and Queues**  
