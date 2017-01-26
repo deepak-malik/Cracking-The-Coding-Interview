@@ -156,8 +156,8 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 07 - FizzBuzz
 
 **Ch 16 - Moderate**
-- [ ] 01 - Number Swapper
-- [ ] 02 - Work Frequencies
+- [X] [01 - Number Swapper](../master/src/com/deepak/ctci/Ch17_Moderate/Problem_01.java)
+- [X] [02 - Word Frequencies](../master/src/com/deepak/ctci/Ch17_Moderate/Problem_02.java)
 - [ ] 03 - Intersection
 - [ ] 04 - Tic Tac Win
 - [ ] 05 - Factorial Zeros
