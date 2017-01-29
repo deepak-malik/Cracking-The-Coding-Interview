@@ -4,6 +4,8 @@
  */
 package com.deepak.ctci.Ch02_LinkedLists;
 
+import com.deepak.ctci.Library.LinkedListNode;
+
 /**
  * <br> Problem Statement : 
  * 
@@ -27,5 +29,12 @@ package com.deepak.ctci.Ch02_LinkedLists;
  * @author Deepak
  */
 public class Problem_05 {
+
+	public LinkedListNode<Integer> findSum(LinkedListNode<Integer> headOfList1, LinkedListNode<Integer> headOfList2) {
+		if (headOfList1 == null || headOfList2 == null) {
+			return null;
+		}
+		return null;
+	}
 
 }
