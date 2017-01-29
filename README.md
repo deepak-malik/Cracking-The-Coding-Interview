@@ -17,7 +17,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [X] [02 - Return K'th to Last](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_02.java)
 - [X] [03 - Delete Middle Node](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_03.java)
 - [X] [04 - Partition](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_04.java)
-- [ ] 05 - Sum Lists
+- [X] [05 - Sum Lists](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_05.java)
 - [X] [06 - Palindrome](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_06.java)
 - [X] [07 - Intersection](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_07.java)
 - [X] [08 - Loop Detection](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_08.java)

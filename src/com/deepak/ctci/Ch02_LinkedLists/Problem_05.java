@@ -30,11 +30,38 @@ import com.deepak.ctci.Library.LinkedListNode;
  */
 public class Problem_05 {
 
-	public LinkedListNode<Integer> findSum(LinkedListNode<Integer> headOfList1, LinkedListNode<Integer> headOfList2) {
-		if (headOfList1 == null || headOfList2 == null) {
+	/**
+	 * Method to find sum backward order
+	 * 
+	 * @param headOfList1
+	 * @param headOfList2
+	 * @param carry
+	 * @return {@link LinkedListNode}
+	 */
+	public static LinkedListNode<Integer> findSumBackwardOrder(LinkedListNode<Integer> headOfList1, LinkedListNode<Integer> headOfList2, int carry) {
+		/* If all three inputs are null, no need to process */
+		if (headOfList1 == null && headOfList2 == null && carry == 0) {
 			return null;
 		}
-		return null;
+		/* Value can be carry, keep updating it by taking 
+		 * one node from each list if not null*/
+		int value = carry;
+		if (headOfList1 != null) {
+			value += headOfList1.data;
+		}
+		if (headOfList2 != null) {
+			value += headOfList2.data;
+		}
+		/* Create the new node */
+		LinkedListNode<Integer> resultHead = new LinkedListNode<>(value % 10);
+		/* If one of the node's still has some value, follow the recursion */
+		if (headOfList1 != null || headOfList2 != null) {
+			LinkedListNode<Integer> nextNode = findSumBackwardOrder(headOfList1 == null ? null : headOfList1.next, 
+					headOfList2 == null ? null : headOfList2.next, value / 10);
+			resultHead.next = nextNode;
+		}
+		/* Return result head */
+		return resultHead;
 	}
 
 }
