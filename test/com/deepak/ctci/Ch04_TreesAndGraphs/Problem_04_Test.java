@@ -11,7 +11,7 @@ import org.junit.Test;
 import com.deepak.ctci.Library.TreeNode;
 
 /**
- * Test cases for problem 04
+ * Test cases for Problem 04
  * 
  * @author Deepak
  */
