@@ -7,7 +7,8 @@ package com.deepak.ctci.Ch04_TreesAndGraphs;
 /**
  * <br> Problem Statement :
  * 
- * 
+ * Given a directed graph, design an algorithm
+ * to find out whether there is a route between two nodes
  * 
  * </br>
  * 

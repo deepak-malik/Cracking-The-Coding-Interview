@@ -7,7 +7,7 @@ package com.deepak.ctci.Ch04_TreesAndGraphs;
 /**
  * <br> Problem Statement :
  * 
- * 
+ * Implement a function to check if a binary tree is BST
  * 
  * </br>
  * 
