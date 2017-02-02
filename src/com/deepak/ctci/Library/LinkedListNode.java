@@ -5,10 +5,11 @@
 package com.deepak.ctci.Library;
 
 /**
- * Class for Linked list Node
- * Keeping this as a generic node class
+ * Class for Linked list node. Keeping this generic
  * 
  * @author Deepak
+ *
+ * @param <T>
  */
 public class LinkedListNode<T> {
 
