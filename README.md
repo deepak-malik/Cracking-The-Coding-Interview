@@ -40,7 +40,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 07 - Build Order
 - [X] [08 - First Common Ancestor](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_08.java)
 - [ ] 09 - BST Sequences
-- [ ] 10 - Check Subtree
+- [X] [10 - Check Subtree](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_10.java)
 - [ ] 11 - Random Node
 - [ ] 12 - Paths with Sum
 

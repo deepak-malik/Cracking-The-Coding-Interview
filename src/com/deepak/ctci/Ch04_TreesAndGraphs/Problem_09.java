@@ -13,9 +13,9 @@ package com.deepak.ctci.Ch04_TreesAndGraphs;
  * that could have led to this tree.
  * 
  * Example : 
- * Input : 				2
- * 					/		\
- * 				1				3
+ * Input : 		2
+ * 			  /	  \
+ * 			1		3
  * 
  * Output : {2, 1, 3}, {2, 3, 1}
  * 
