@@ -33,7 +33,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 **Ch 04 - Trees and Graphs**
 - [ ] 01 - Route Between Nodes
 - [X] [02 - Minimal Tree](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_02.java)
-- [ ] 03 - List of Depths
+- [X] [03 - List of Depths](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_03.java)
 - [X] [04 - Check Balanced](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_04.java)
 - [X] [05 - Validate BST](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_05.java)
 - [X] [06 - Successor](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_06.java)

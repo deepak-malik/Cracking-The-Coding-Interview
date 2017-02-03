@@ -17,6 +17,7 @@ import com.deepak.ctci.Library.TreeNode;
  */
 public class Problem_04_Test {
 
+	/* Root of the tree */
 	private TreeNode<Integer> root;
 
 	/**
