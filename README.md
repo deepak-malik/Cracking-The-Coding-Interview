@@ -36,7 +36,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 03 - List of Depths
 - [X] [04 - Check Balanced](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_04.java)
 - [X] [05 - Validate BST](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_05.java)
-- [ ] 06 - Successor
+- [X] [06 - Successor](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_06.java)
 - [ ] 07 - Build Order
 - [ ] 08 - First Common Ancestor
 - [ ] 09 - BST Sequences
