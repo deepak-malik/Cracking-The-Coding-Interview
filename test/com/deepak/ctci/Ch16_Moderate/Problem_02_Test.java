@@ -2,7 +2,7 @@
  * Cracking-The-Coding-Interview
  * Problem_02_Test.java
  */
-package com.deepak.ctci.Ch17_Moderate;
+package com.deepak.ctci.Ch16_Moderate;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,6 +10,8 @@ import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.deepak.ctci.Ch16_Moderate.Problem_02;
 
 /**
  * Test cases to find occurrences of a word in book

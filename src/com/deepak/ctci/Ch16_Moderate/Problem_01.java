@@ -2,7 +2,7 @@
  * Cracking-The-Coding-Interview
  * Problem_01.java
  */
-package com.deepak.ctci.Ch17_Moderate;
+package com.deepak.ctci.Ch16_Moderate;
 
 import java.util.HashMap;
 import java.util.Map;

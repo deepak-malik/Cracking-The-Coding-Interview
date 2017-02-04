@@ -2,13 +2,13 @@
  * Cracking-The-Coding-Interview
  * Problem_25_Test.java
  */
-package com.deepak.ctci.Ch17_Moderate;
+package com.deepak.ctci.Ch16_Moderate;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.deepak.ctci.Ch17_Moderate.Problem_25.LRUCache;
+import com.deepak.ctci.Ch16_Moderate.Problem_25.LRUCache;
 
 /**
  * Test cases for Problem 25

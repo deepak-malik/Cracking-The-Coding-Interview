@@ -2,12 +2,14 @@
  * Cracking-The-Coding-Interview
  * Problem_01_Test.java
  */
-package com.deepak.ctci.Ch17_Moderate;
+package com.deepak.ctci.Ch16_Moderate;
 
 import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import com.deepak.ctci.Ch16_Moderate.Problem_01;
 
 /**
  * Test cases to swap two numbers
