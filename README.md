@@ -180,7 +180,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 22 - Langton's Ant
 - [ ] 23 - Rand7 from Rand5
 - [ ] 24 - Pairs with Sum
-- [ ] 25 - LRU Cache
+- [X] [25 - LRU Cache](../master/src/com/deepak/ctci/Ch17_Moderate/Problem_25.java)
 - [ ] 26 - Calculator
 
 **Ch 17 - Hard**
