@@ -42,7 +42,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 09 - BST Sequences
 - [X] [10 - Check Subtree](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_10.java)
 - [ ] 11 - Random Node
-- [ ] 12 - Paths with Sum
+- [X] [12 - Paths with Sum](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_12.java)
 
 **Ch 05 - Bit Manipulation**  
 - [ ] 01 - Insertion
