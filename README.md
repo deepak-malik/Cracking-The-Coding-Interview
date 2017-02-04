@@ -2,15 +2,15 @@
 Java Solutions for Cracking the Coding Interview - 6th Edition 
 
 **Ch 01 - Arrays and Strings**  
-- [X] [01 - Is Unique](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_01.java)
-- [X] [02 - Check Permutation](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_02.java)
-- [X] [03 - URLify](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_03.java)
-- [X] [04 - Palindrome Permutation](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_04.java)
-- [X] [05 - One Away](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_05.java)
-- [X] [06 - String Compression](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_06.java)
-- [X] [07 - Rotate Matrix](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_07.java)
-- [X] [08 - Zero Matrix](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_08.java)
-- [X] [09 - String Rotation](../master/src/com/deepak/ctci/Ch01_ArraysAndStrings/Problem_09.java)
+- [X] [01 - Is Unique](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_01.java)
+- [X] [02 - Check Permutation](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_02.java)
+- [X] [03 - URLify](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_03.java)
+- [X] [04 - Palindrome Permutation](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_04.java)
+- [X] [05 - One Away](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_05.java)
+- [X] [06 - String Compression](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_06.java)
+- [X] [07 - Rotate Matrix](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_07.java)
+- [X] [08 - Zero Matrix](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_08.java)
+- [X] [09 - String Rotation](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_09.java)
 
 **Ch 02 - Linked List**
 - [X] [01 - Remove Duplicates](../master/src/com/deepak/ctci/Ch02_LinkedLists/Problem_01.java)
@@ -26,23 +26,23 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 01 - Three in One
 - [ ] 02 - Stack Min
 - [ ] 03 - Stack of Plates
-- [X] [04 - Queue via Stacks](../master/src/com/deepak/ctci/Ch03_StacksAndQueues/Problem_04.java)
+- [X] [04 - Queue via Stacks](../master/src/com/deepak/ctci/Ch03_Stacks_And_Queues/Problem_04.java)
 - [ ] 05 - Sort Stack
 - [ ] 06 - Animal Shelter
 
 **Ch 04 - Trees and Graphs**
 - [ ] 01 - Route Between Nodes
-- [X] [02 - Minimal Tree](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_02.java)
-- [X] [03 - List of Depths](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_03.java)
-- [X] [04 - Check Balanced](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_04.java)
-- [X] [05 - Validate BST](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_05.java)
-- [X] [06 - Successor](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_06.java)
+- [X] [02 - Minimal Tree](../master/src/com/deepak/ctci/Ch04_Trees_And_Graphs/Problem_02.java)
+- [X] [03 - List of Depths](../master/src/com/deepak/ctci/Ch04_Trees_And_Graphs/Problem_03.java)
+- [X] [04 - Check Balanced](../master/src/com/deepak/ctci/Ch04_Trees_And_Graphs/Problem_04.java)
+- [X] [05 - Validate BST](../master/src/com/deepak/ctci/Ch04_Trees_And_Graphs/Problem_05.java)
+- [X] [06 - Successor](../master/src/com/deepak/ctci/Ch04_Trees_And_Graphs/Problem_06.java)
 - [ ] 07 - Build Order
-- [X] [08 - First Common Ancestor](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_08.java)
+- [X] [08 - First Common Ancestor](../master/src/com/deepak/ctci/Ch04_Trees_And_Graphs/Problem_08.java)
 - [ ] 09 - BST Sequences
-- [X] [10 - Check Subtree](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_10.java)
+- [X] [10 - Check Subtree](../master/src/com/deepak/ctci/Ch04_Trees_And_Graphs/Problem_10.java)
 - [ ] 11 - Random Node
-- [X] [12 - Paths with Sum](../master/src/com/deepak/ctci/Ch04_TreesAndGraphs/Problem_12.java)
+- [X] [12 - Paths with Sum](../master/src/com/deepak/ctci/Ch04_Trees_And_Graphs/Problem_12.java)
 
 **Ch 05 - Bit Manipulation**  
 - [ ] 01 - Insertion
