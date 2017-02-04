@@ -24,7 +24,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 
 **Ch 03 - Stacks and Queues**  
 - [ ] 01 - Three in One
-- [ ] 02 - Stack Min
+- [X] [02 - Stack Min](../master/src/com/deepak/ctci/Ch03_Stacks_And_Queues/Problem_02.java)
 - [ ] 03 - Stack of Plates
 - [X] [04 - Queue via Stacks](../master/src/com/deepak/ctci/Ch03_Stacks_And_Queues/Problem_04.java)
 - [ ] 05 - Sort Stack
