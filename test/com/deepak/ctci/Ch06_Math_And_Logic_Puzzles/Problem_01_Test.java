@@ -43,12 +43,12 @@ public class Problem_01_Test {
 	@Test
 	public void testHeavyBottle() {
 		/* When none of the bottles has heavier pills */
-		List<Bottle> bottles1 = Problem_01.replaceBottleWithHeavierPills(collectionOfBottles, 0, numberOfPills);
-		Assert.assertEquals(Problem_01.findBottleWithHeavyPill(bottles1, numberOfPills), 0);
+		List<Bottle> bottles1 = Problem_01.replaceBottleWithHeavierPills(collectionOfBottles, 0);
+		Assert.assertEquals(Problem_01.findBottleWithHeavyPill(bottles1), 0);
 
 		/* When any one valid bottle has heavier pills */
-		List<Bottle> bottles2 = Problem_01.replaceBottleWithHeavierPills(collectionOfBottles, 17, numberOfPills);
-		Assert.assertEquals(Problem_01.findBottleWithHeavyPill(bottles2, numberOfPills), 17);
+		List<Bottle> bottles2 = Problem_01.replaceBottleWithHeavierPills(collectionOfBottles, 17);
+		Assert.assertEquals(Problem_01.findBottleWithHeavyPill(bottles2), 17);
 	}
 
 }

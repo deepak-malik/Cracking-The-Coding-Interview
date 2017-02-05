@@ -32,10 +32,9 @@ public class Problem_01 {
 	 * each pill is fixed 1.0 grams)
 	 * 
 	 * @param collectionOfBottles
-	 * @param numberOfPills
 	 * @return {@link int}
 	 */
-	public static int findBottleWithHeavyPill(List<Bottle> collectionOfBottles, int numberOfPills) {
+	public static int findBottleWithHeavyPill(List<Bottle> collectionOfBottles) {
 		double standardWeight = 0.0;
 		double actualWeight = 0.0;
 		/* Get standard weight and actual weight from each bottle */
@@ -61,7 +60,7 @@ public class Problem_01 {
 	 * @param numberOfPills
 	 * @return {@link List<Bottle>}
 	 */
-	public static List<Bottle> replaceBottleWithHeavierPills(List<Bottle> collectionOfBottles, int bottleNumber, int numberOfPills) {
+	public static List<Bottle> replaceBottleWithHeavierPills(List<Bottle> collectionOfBottles, int bottleNumber) {
 		/* Find the bottle to replace pills from the collection and replace each pill */
 		if (bottleNumber > 0 && bottleNumber <= collectionOfBottles.size()) {
 			Bottle bottleToReplacePills = collectionOfBottles.get(bottleNumber - 1);
