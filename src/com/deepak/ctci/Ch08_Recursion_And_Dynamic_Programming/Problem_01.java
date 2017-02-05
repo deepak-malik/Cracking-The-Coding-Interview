@@ -1,13 +1,29 @@
+/**
+ * Cracking-The-Coding-Interview
+ * Problem_01.java
+ */
 package com.deepak.ctci.Ch08_Recursion_And_Dynamic_Programming;
 
+/**
+ * <br> Problem Statement :
+ * 
+ * A child is running up the staircase with n steps
+ * and can hop either 1 step, 2 steps or either 3 steps
+ * at a time. Implement a method to count how many possible
+ * ways the child can run up the stairs.
+ * 
+ * <br>
+ * 
+ * @author Deepak
+ */
 public class Problem_01 {
 
-	public static void main(String[] args) {
-		System.out.println(countWays(0));
-		System.out.println(countWays(1));
-		System.out.println(countWays(5));
-	}
-
+	/**
+	 * Method to count number of ways to climb stairs
+	 * 
+	 * @param n
+	 * @return {@link int}
+	 */
 	public static int countWays(int n) {
 		if (n < 0) return 0;
 		if (n == 0) return 1;
