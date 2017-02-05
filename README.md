@@ -55,7 +55,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 08 - Draw Line
 
 **Ch 06 - Math and Logic Puzzles**
-- [ ] 01 - The Heavy Pill
+- [X] [01 - The Heavy Pill](../master/src/com/deepak/ctci/Ch06_Math_And_Logic_Puzzles/Problem_01.java)
 - [ ] 02 - Basketball
 - [ ] 03 - Dominos
 - [ ] 04 - Ants on a Triangle
