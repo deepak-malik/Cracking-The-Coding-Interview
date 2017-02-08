@@ -46,7 +46,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 
 **Ch 05 - Bit Manipulation**  
 - [X] [01 - Insertion](../master/src/com/deepak/ctci/Ch05_Bit_Manipulation/Problem_01.java)
-- [ ] 02 - Binary to String
+- [X] [02 - Binary to String](../master/src/com/deepak/ctci/Ch05_Bit_Manipulation/Problem_02.java)
 - [ ] 03 - Flip Bit to Win
 - [ ] 04 - Next Number
 - [ ] 05 - Debugger
