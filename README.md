@@ -45,7 +45,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [X] [12 - Paths with Sum](../master/src/com/deepak/ctci/Ch04_Trees_And_Graphs/Problem_12.java)
 
 **Ch 05 - Bit Manipulation**  
-- [ ] 01 - Insertion
+- [X] [01 - Insertion](../master/src/com/deepak/ctci/Ch05_Bit_Manipulation/Problem_01.java)
 - [ ] 02 - Binary to String
 - [ ] 03 - Flip Bit to Win
 - [ ] 04 - Next Number

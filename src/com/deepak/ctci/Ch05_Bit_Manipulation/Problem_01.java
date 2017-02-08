@@ -23,13 +23,35 @@ package com.deepak.ctci.Ch05_Bit_Manipulation;
  * @author Deepak
  */
 public class Problem_01 {
-	
-	public int mergeMIntoN(int M, int N, int i, int j) {
-		if (i < 0 || i >= 32 || j < i) {
+
+	/**
+	 * Method to merge M into N
+	 * 
+	 * @param N
+	 * @param M
+	 * @param i
+	 * @param j
+	 * @return {@link int}
+	 */
+	public static int mergeMIntoN(int N, int M, int i, int j) {
+		/* Since we are dealing with 32 bits, 
+		 * i and j can't be greater then 32 */
+		if (i > 32 || i > j) {
 			return 0;
 		}
-		
-		return 0;
+		/* We need to clear the bits from i to j.
+		 * For that, we need a mask. Let's take all 1's
+		 * and keep only those 1, where M can fit in, rest
+		 * can be made 0 */
+		int allOnes = ~0;
+		int left = allOnes << (j + 1);
+		int right = ((1 << i) - 1);
+		int mask = left | right;
+
+		/* Clear i through j */
+		int n_cleared = N & mask;
+		int m_shifted = M << i;
+		return n_cleared | m_shifted;
 	}
 
 }
