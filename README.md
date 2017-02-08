@@ -59,7 +59,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 02 - Basketball
 - [ ] 03 - Dominos
 - [ ] 04 - Ants on a Triangle
-- [ ] 05 - Jugs of Water
+- [X] [05 - Jugs of Water](../master/src/com/deepak/ctci/Ch06_Math_And_Logic_Puzzles/Problem_05.java)
 - [ ] 06 - Blue Eyed Island
 - [ ] 07 - The Apocalypse
 - [ ] 08 - The Egg Drop Problem
