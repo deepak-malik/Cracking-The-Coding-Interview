@@ -1,5 +1,6 @@
 # Cracking-The-Coding-Interview
 Java Solutions for Cracking the Coding Interview - 6th Edition 
+- [X] [How to approach the question](../master/How_To_Approach.md)
 
 **Ch 01 - Arrays and Strings**  
 - [X] [01 - Is Unique](../master/src/com/deepak/ctci/Ch01_Arrays_And_Strings/Problem_01.java)
