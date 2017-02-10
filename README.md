@@ -121,12 +121,12 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 11 - Peaks and Valleys
 
 **Ch 11 - Testing**
-- [ ] 01 - Mistake
-- [ ] 02 - Random Crashes
-- [ ] 03 - Chess Test
-- [ ] 04 - No Test Tools
-- [ ] 05 - Test a Pen
-- [ ] 06 - Test an ATM
+- [X] [01 - Mistake](../master/src/com/deepak/ctci/Ch11_Testing/Problem_01.java)
+- [X] [02 - Random Crashes](../master/src/com/deepak/ctci/Ch11_Testing/Problem_02-06.md)
+- [X] [03 - Chess Test](../master/src/com/deepak/ctci/Ch11_Testing/Problem_02-06.md)
+- [X] [04 - No Test Tools](../master/src/com/deepak/ctci/Ch11_Testing/Problem_02-06.md)
+- [X] [05 - Test a Pen](../master/src/com/deepak/ctci/Ch11_Testing/Problem_02-06.md)
+- [X] [06 - Test an ATM](../master/src/com/deepak/ctci/Ch11_Testing/Problem_02-06.md)
 
 **Ch 13 - Java**
 - [X] [01 - Private Constructor](../master/src/com/deepak/ctci/Ch13_Java/Problem_01.java)
