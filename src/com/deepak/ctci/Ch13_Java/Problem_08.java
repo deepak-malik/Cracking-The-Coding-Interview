@@ -28,6 +28,7 @@ public class Problem_08 {
 	/**
 	 * Method to get random subset using advanced java loop
 	 * NOTE : We will use random to solve this problem. There can be other better ways
+	 * 
 	 * @param list
 	 * @return {@link List<Integer>}
 	 */
@@ -44,6 +45,7 @@ public class Problem_08 {
 
 	/**
 	 * Method to get random subset using lambda
+	 * 
 	 * @param list
 	 * @return {@link List<Integer>}
 	 */

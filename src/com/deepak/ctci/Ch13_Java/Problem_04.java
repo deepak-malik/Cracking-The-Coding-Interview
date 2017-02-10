@@ -7,7 +7,7 @@ package com.deepak.ctci.Ch13_Java;
 /**
  * <br> Problem Statement:
  * 
- * Explain the difference between templates in C++ and generics in Java?
+ * Explain the difference between templates in C++ and generic's in Java?
  * 
  * </br>
  * 

@@ -49,6 +49,7 @@ public class Problem_07 {
 
 	/**
 	 * Class country 
+	 * 
 	 * @author Deepak
 	 */
 	public static class Country {
@@ -58,6 +59,7 @@ public class Problem_07 {
 
 		/**
 		 * Constructor
+		 * 
 		 * @param continent
 		 * @param population
 		 */
