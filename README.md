@@ -91,7 +91,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 07 - Permutations without Dups
 - [ ] 08 - Permutations with Dups
 - [ ] 09 - Parens
-- [ ] 10 - Paint Fill
+- [X] [10 - Paint Fill](../master/src/com/deepak/ctci/Ch08_Recursion_And_Dynamic_Programming/Problem_10.java)
 - [ ] 11 - Coins
 - [X] [12 - Eight Queens](../master/src/com/deepak/ctci/Ch08_Recursion_And_Dynamic_Programming/Problem_12.java)
 - [ ] 13 - Stack of Boxes
