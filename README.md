@@ -83,7 +83,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 
 **Ch 08 - Recursion and Dynamic Programming**  
 - [X] [01 - Triple Step](../master/src/com/deepak/ctci/Ch08_Recursion_And_Dynamic_Programming/Problem_01.java)
-- [ ] 02 - Robot in a Grid
+- [X] [02 - Robot in a Grid](../master/src/com/deepak/ctci/Ch08_Recursion_And_Dynamic_Programming/Problem_02.java)
 - [ ] 03 - Magic Index
 - [ ] 04 - Power Set
 - [ ] 05 - Recursive Multiply
