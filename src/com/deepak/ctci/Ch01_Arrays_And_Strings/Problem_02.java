@@ -24,6 +24,9 @@ public class Problem_02 {
 	 * Method to check if two given strings are valid 
 	 * case sensitive permutations
 	 * 
+	 * Time Complexity : O(n)
+	 * Space Complexity : O(1)
+	 * 
 	 * @param string1
 	 * @param string2
 	 * @return {@link boolean}
@@ -55,6 +58,9 @@ public class Problem_02 {
 	/**
 	 * Method to check if two given strings are valid 
 	 * case insensitive permutations
+	 * 
+	 * Time Complexity : O(n)
+	 * Space Complexity : O(n)
 	 * 
 	 * @param string1
 	 * @param string2

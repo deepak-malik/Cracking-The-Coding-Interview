@@ -23,6 +23,9 @@ public class Problem_09 {
 	/**
 	 * Method to check if one string is a rotation of another
 	 * 
+	 * Time Complexity : O(1)
+	 * Space Complexity : O(1)
+	 * 
 	 * @param str1
 	 * @param str2
 	 * @return {@link boolean}
@@ -51,7 +54,8 @@ public class Problem_09 {
 	 * @return {@link boolean}
 	 */
 	private static boolean isSubString(String big, String small) {
-		if (big.toLowerCase().indexOf(small.toLowerCase()) >= 0) { /* We can use big.contains(small) as well here */
+		if (big.toLowerCase().indexOf(small.toLowerCase()) >= 0) { 
+			/* We can use big.contains(small) as well here */
 			return true;
 		}
 		return false;

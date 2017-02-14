@@ -25,6 +25,9 @@ public class Problem_03 {
 	 * Method to replace spaces in a string with special character's (Already given)
 	 * True length is also passed in the method
 	 * 
+	 * Time Complexity : O(n)
+	 * Space Complexity : O(n)
+	 * 
 	 * @param input
 	 * @param trueLength
 	 * @return {@link String}

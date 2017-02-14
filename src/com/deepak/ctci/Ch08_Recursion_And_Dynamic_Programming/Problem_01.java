@@ -24,6 +24,8 @@ public class Problem_01 {
 	 * Method to count number of ways to climb stairs
 	 * Note : This is a brute force method
 	 * 
+	 * Time Complexity = O(3^n) since each call results in 3 more calls
+	 * 
 	 * @param n
 	 * @return {@link int}
 	 */

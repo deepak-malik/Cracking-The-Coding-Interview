@@ -23,6 +23,9 @@ public class Problem_06 {
 	/**
 	 * Method to compress a string 
 	 * 
+	 * Time Complexity : O(n)
+	 * Space Complexity : O(n)
+	 * 
 	 * @param input
 	 * @return {@link String}
 	 */

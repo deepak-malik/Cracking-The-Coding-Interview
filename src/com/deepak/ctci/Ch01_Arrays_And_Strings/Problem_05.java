@@ -26,6 +26,9 @@ public class Problem_05 {
 	/**
 	 * Method to check if two strings are one edit away
 	 * 
+	 * Time Complexity : O(n)
+	 * Space Complexity : O(1)
+	 * 
 	 * @param input1
 	 * @param input2
 	 * @return {@link boolean}

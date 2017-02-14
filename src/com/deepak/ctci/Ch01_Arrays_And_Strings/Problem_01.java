@@ -31,8 +31,8 @@ public class Problem_01 {
 	 * if it doesn't appear then set the flag to true. 
 	 * If it appears, return false.
 	 * 
-	 * Time Complexity : O(n) - Because if there are n characters, we will loop n times 
-	 * Space Complexity : O(n) 
+	 * Time Complexity : O(n) 
+	 * Space Complexity : O(1) 
 	 * 
 	 * @param iWord
 	 * @return {@link boolean}

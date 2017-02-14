@@ -31,6 +31,9 @@ public class Problem_04 {
 	 * - A string will be considered as a palindrome permutation, 
 	 * if it does not have more then one odd character count
 	 * 
+	 * Time Complexity : O(n)
+	 * Space Complexity : O(n)
+	 * 
 	 * @param input
 	 * @return {@link boolean}
 	 */

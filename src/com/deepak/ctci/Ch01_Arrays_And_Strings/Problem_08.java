@@ -21,6 +21,9 @@ public class Problem_08 {
 	/**
 	 * Method to set zeros in rows and columns if one entry is zero
 	 * 
+	 * Time Complexity : O(n^2)
+	 * Space Complexity : O(n)
+	 * 
 	 * @param matrix
 	 * @return {@link int[][]}
 	 */

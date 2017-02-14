@@ -20,6 +20,9 @@ public class Problem_07 {
 	/**
 	 * Method to rotate a matrix by 90 degrees
 	 * 
+	 * Time Complexity : O(n^2)
+	 * Space Complexity : O(n)
+	 * 
 	 * @param matrix
 	 * @return {@link int[][]}
 	 */
@@ -46,6 +49,9 @@ public class Problem_07 {
 
 	/**
 	 * Method to rotate a matrix in place
+	 * 
+	 * Time Complexity : O(n^2)
+	 * Space Complexity : O(1)
 	 * 
 	 * @param matrix
 	 * @return {@link int[][]}
