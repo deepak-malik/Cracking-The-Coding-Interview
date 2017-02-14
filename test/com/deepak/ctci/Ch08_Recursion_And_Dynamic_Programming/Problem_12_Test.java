@@ -17,6 +17,17 @@ import org.junit.Test;
 public class Problem_12_Test {
 
 	/**
+	 * Test case for N queens when board size is either 2 or 3
+	 * NOTE : You cannot place n queens on board of size 2 or 3
+	 * It start from 4
+	 */
+	@Test
+	public void testNQueensForBoardOfSize2And3() {
+		Assert.assertEquals(Arrays.toString(Problem_12.solveNQueens(2)), "[]");
+		Assert.assertEquals(Arrays.toString(Problem_12.solveNQueens(3)), "[]");
+	}
+
+	/**
 	 * Test case for N queens when board size is 4
 	 * 
 	 * [*	Q	*	*]
