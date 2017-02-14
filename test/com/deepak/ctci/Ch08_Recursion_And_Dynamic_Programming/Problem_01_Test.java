@@ -19,9 +19,16 @@ public class Problem_01_Test {
 	 */
 	@Test
 	public void testCountSteps() {
-		Assert.assertEquals(Problem_01.countWays(0), 0);
-		Assert.assertEquals(Problem_01.countWays(1), 1);
-		Assert.assertEquals(Problem_01.countWays(5), 5);
+		/* Brute Force */
+		Assert.assertEquals(Problem_01.countWaysBruteForce(0), 1);
+		Assert.assertEquals(Problem_01.countWaysBruteForce(1), 1);
+		Assert.assertEquals(Problem_01.countWaysBruteForce(3), 4);
+		Assert.assertEquals(Problem_01.countWaysBruteForce(5), 13);
+		/* Optimized */
+		Assert.assertEquals(Problem_01.countWaysOptimized(0), 1);
+		Assert.assertEquals(Problem_01.countWaysOptimized(1), 1);
+		Assert.assertEquals(Problem_01.countWaysOptimized(3), 4);
+		Assert.assertEquals(Problem_01.countWaysOptimized(5), 13);
 	}
 
 }
