@@ -57,7 +57,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 
 **Ch 06 - Math and Logic Puzzles**
 - [X] [01 - The Heavy Pill](../master/src/com/deepak/ctci/Ch06_Math_And_Logic_Puzzles/Problem_01.java)
-- [ ] 02 - Basketball
+- [X] [02 - Basketball](../master/src/com/deepak/ctci/Ch06_Math_And_Logic_Puzzles/Problem_02.java)
 - [X] [03 - Dominos](../master/src/com/deepak/ctci/Ch06_Math_And_Logic_Puzzles/Problem_03.md)
 - [ ] 04 - Ants on a Triangle
 - [X] [05 - Jugs of Water](../master/src/com/deepak/ctci/Ch06_Math_And_Logic_Puzzles/Problem_05.java)
