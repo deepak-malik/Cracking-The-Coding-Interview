@@ -9,10 +9,7 @@ import java.util.Arrays;
 /**
  * <br> Problem Statement :
  *  
- * Given two strings, write a method to decide if one
- * is the permutation of other.
- * Following two separate approaches here for each of the
- * case sensitive and case insensitive comparison.
+ * Given two strings, write a method to decide if one is the permutation of other.
  * 
  * </br>
  * 
@@ -21,69 +18,53 @@ import java.util.Arrays;
 public class Problem_02 {
 
 	/**
-	 * Method to check if two given strings are valid 
-	 * case sensitive permutations
-	 * 
-	 * Time Complexity : O(n)
-	 * Space Complexity : O(1)
-	 * 
-	 * @param string1
-	 * @param string2
+	 * Method to check if two strings are valid permutation
+	 * This is a brute force approach
+	 *  
+	 * @param str1
+	 * @param str2
 	 * @return {@link boolean}
 	 */
-	public static boolean isValidPermutation_CaseSensitive(String string1, String string2) {
-		/* Considering null and "" as valid permutations */
-		if ((string1 == null && string2 == null) || (string1 == "" && string2 == "")) {
-			return true;
-		}
-		/* No need to process further if length of two strings is not same */
-		if (string1.length() != string2.length()) {
+	public static boolean isValidPermutation_BruteForce(String str1, String str2) {
+		/* None of the strings should be empty and there length should be equal */
+		if (str1.isEmpty() || str2.isEmpty() || str1.length() != str2.length()) {
 			return false;
 		}
-		/* Start the comparison of each character from different sides, 
-		 * i.e start from 0 for 1st string and start from n - 1 for 2nd string */
-		int i = 0, j = string2.length() - 1;
-		while (i < string1.length() && j > 0) {
-			/* If any of the character doesn't match, return false */
-			if (string1.charAt(i) != string2.charAt(j)) {
-				return false;
-			}
-			/* Increase or decrease the counter for each string appropriately */
-			i++;
-			j--;
-		}
-		return true;
+		/* Convert both to char array and sort them */
+		char[] str1Array = str1.toCharArray();
+		char[] str2Array = str2.toCharArray();
+		Arrays.sort(str1Array);
+		Arrays.sort(str2Array);
+		/* If both of them as string are equal, they are permutation of each other */
+		return new String(str1Array).equals(new String(str2Array));
 	}
 
 	/**
-	 * Method to check if two given strings are valid 
-	 * case insensitive permutations
+	 * Method to check if two strings are permutation 
+	 * This is a optimized approach when we assume that strings are ASCII
 	 * 
-	 * Time Complexity : O(n)
-	 * Space Complexity : O(n)
-	 * 
-	 * @param string1
-	 * @param string2
+	 * @param str1
+	 * @param str2
 	 * @return {@link boolean}
 	 */
-	public static boolean isValidPermutation_CaseInSensitive(String string1, String string2) {
-		/* Considering null and "" as valid permutations */
-		if ((string1 == null && string2 == null) || (string1 == "" && string2 == "")) {
-			return true;
-		}
-		/* No need to process further if length of two strings is not same */
-		if (string1.length() != string2.length()) {
+	public static boolean isValidPermutation_Optimized(String str1, String str2) {
+		/* None of the strings should be empty and there length should be equal */
+		if (str1.isEmpty() || str2.isEmpty() || str1.length() != str2.length()) {
 			return false;
 		}
-		/* Convert each of the strings to upper case character array, since it is case in sensitive comparison */
-		char[] charArray1 = string1.toUpperCase().toCharArray();
-		char[] charArray2 = string2.toUpperCase().toCharArray();
-		/* Sort both the arrays */
-		Arrays.sort(charArray1);
-		Arrays.sort(charArray2);
-		/* Compare each character at same position, if doesn't match return false */
-		for (int i = 0; i < charArray1.length; i++) {
-			if (charArray1[i] != charArray2[i]) {
+		/* Since we know it is a ASCII string, we can take a int array of 256 size */
+		int[] letters = new int[256];
+		/* Initially array will have all 0's, Increment
+		 * the count for each character in first string */
+		for (int i = 0; i < str1.length(); i++) {
+			letters[str1.charAt(i)]++;
+		}
+		/* Decrement the count for each character when
+		 * we traverse the second string and check if count has 
+		 * gone below 0, if yes then they are not permutation */
+		for (int i = 0; i < str2.length(); i++) {
+			letters[str2.charAt(i)]--;
+			if (letters[str2.charAt(i)] < 0) {
 				return false;
 			}
 		}
