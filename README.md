@@ -86,7 +86,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [X] [02 - Robot in a Grid](../master/src/com/deepak/ctci/Ch08_Recursion_And_Dynamic_Programming/Problem_02.java)
 - [X] [03 - Magic Index](../master/src/com/deepak/ctci/Ch08_Recursion_And_Dynamic_Programming/Problem_03.java)
 - [X] [04 - Power Set](../master/src/com/deepak/ctci/Ch08_Recursion_And_Dynamic_Programming/Problem_04.java)
-- [ ] 05 - Recursive Multiply
+- [X] [05 - Recursive Multiply](../master/src/com/deepak/ctci/Ch08_Recursion_And_Dynamic_Programming/Problem_05.java)
 - [ ] 06 - Tower of Hanoi
 - [ ] 07 - Permutations without Dups
 - [ ] 08 - Permutations with Dups
