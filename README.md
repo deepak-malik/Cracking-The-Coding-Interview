@@ -186,7 +186,7 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 
 **Ch 17 - Hard**
 - [X] [01 - Add without Plus](../master/src/com/deepak/ctci/Ch17_Hard/Problem_01.java)
-- [ ] 02 - Shuffle
+- [X] [02 - Shuffle](../master/src/com/deepak/ctci/Ch17_Hard/Problem_02.java)
 - [ ] 03 - Random Set
 - [ ] 04 - Missing Number
 - [ ] 05 - Letters and Numbers
