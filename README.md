@@ -157,8 +157,8 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 07 - FizzBuzz
 
 **Ch 16 - Moderate**
-- [X] [01 - Number Swapper](../master/src/com/deepak/ctci/Ch17_Moderate/Problem_01.java)
-- [X] [02 - Word Frequencies](../master/src/com/deepak/ctci/Ch17_Moderate/Problem_02.java)
+- [X] [01 - Number Swapper](../master/src/com/deepak/ctci/Ch16_Moderate/Problem_01.java)
+- [X] [02 - Word Frequencies](../master/src/com/deepak/ctci/Ch16_Moderate/Problem_02.java)
 - [ ] 03 - Intersection
 - [ ] 04 - Tic Tac Win
 - [ ] 05 - Factorial Zeros
@@ -181,11 +181,11 @@ Java Solutions for Cracking the Coding Interview - 6th Edition
 - [ ] 22 - Langton's Ant
 - [ ] 23 - Rand7 from Rand5
 - [ ] 24 - Pairs with Sum
-- [X] [25 - LRU Cache](../master/src/com/deepak/ctci/Ch17_Moderate/Problem_25.java)
+- [X] [25 - LRU Cache](../master/src/com/deepak/ctci/Ch16_Moderate/Problem_25.java)
 - [ ] 26 - Calculator
 
 **Ch 17 - Hard**
-- [ ] 01 - Add without Plus
+- [X] [01 - Add without Plus](../master/src/com/deepak/ctci/Ch17_Hard/Problem_01.java)
 - [ ] 02 - Shuffle
 - [ ] 03 - Random Set
 - [ ] 04 - Missing Number
