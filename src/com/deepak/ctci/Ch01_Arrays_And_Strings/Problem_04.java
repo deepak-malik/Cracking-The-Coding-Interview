@@ -31,8 +31,8 @@ public class Problem_04 {
 	 * - A string will be considered as a palindrome permutation, 
 	 * if it does not have more then one odd character count
 	 * 
-	 * Time Complexity : O(n)
-	 * Space Complexity : O(n)
+	 * Time Complexity : O(n) => Where n is number of characters in the input string
+	 * Space Complexity : O(n) => Extra space for map, worst case we will push all the characters into map
 	 * 
 	 * @param input
 	 * @return {@link boolean}
