@@ -4,7 +4,6 @@
  */
 package com.deepak.ctci.Ch01_Arrays_And_Strings;
 
-
 /**
  * <br> Problem Statement :
  * 
