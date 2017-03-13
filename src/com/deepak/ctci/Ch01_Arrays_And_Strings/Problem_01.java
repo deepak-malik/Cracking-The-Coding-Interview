@@ -31,8 +31,8 @@ public class Problem_01 {
 	 * if it doesn't appear then set the flag to true. 
 	 * If it appears, return false.
 	 * 
-	 * Time Complexity : O(n) 
-	 * Space Complexity : O(1) 
+	 * Time Complexity : O(n) => Where n is number of characters in the input string
+	 * Space Complexity : O(1) => Extra space used for boolean char flags, but that is fixed i.e 256
 	 * 
 	 * @param iWord
 	 * @return {@link boolean}
@@ -70,8 +70,8 @@ public class Problem_01 {
 	 * compare each of it for an existence in set. If it doesn't
 	 * appear in set, add it. if exists, return false.
 	 * 
-	 * Time Complexity : O(n)
-	 * Space Complexity : O(n)
+	 * Time Complexity : O(n) => Where n is number of characters in the input
+	 * Space Complexity : O(n) => Extra memory used for set, which can contain n characters in worst case
 	 * 
 	 * @param iWord
 	 * @return {@link boolean}
