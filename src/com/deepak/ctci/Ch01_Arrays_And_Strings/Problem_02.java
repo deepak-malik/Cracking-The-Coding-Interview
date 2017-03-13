@@ -20,6 +20,11 @@ public class Problem_02 {
 	/**
 	 * Method to check if two strings are valid permutation
 	 * This is a brute force approach
+	 * 
+	 * Time Complexity : O(n*log(n)) => n*log(n) is needed for sorting character arrays 
+	 * Space Complexity : O(a + b) => Where a is number of characters in string 1 and b 
+	 * is number of characters in string 2. This will become O(n) if two strings are valid
+	 * permutations of each other because they will have same set of characters.
 	 *  
 	 * @param str1
 	 * @param str2
@@ -42,6 +47,9 @@ public class Problem_02 {
 	/**
 	 * Method to check if two strings are permutation 
 	 * This is a optimized approach when we assume that strings are ASCII
+	 * 
+	 * Time Complexity : O(a + b) => Where a and b are number of characters in string 1 and 2 respectively
+	 * Space Complexity : O(1) => Since letter array is fixed size
 	 * 
 	 * @param str1
 	 * @param str2
