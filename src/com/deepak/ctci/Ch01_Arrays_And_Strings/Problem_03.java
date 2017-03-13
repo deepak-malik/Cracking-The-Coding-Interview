@@ -25,8 +25,8 @@ public class Problem_03 {
 	 * Method to replace spaces in a string with special character's (Already given)
 	 * True length is also passed in the method
 	 * 
-	 * Time Complexity : O(n)
-	 * Space Complexity : O(n)
+	 * Time Complexity : O(n) => Where n is number of characters in the input
+	 * Space Complexity : O(n) => For char array, worst case we may end up adding all characters to array
 	 * 
 	 * @param input
 	 * @param trueLength
