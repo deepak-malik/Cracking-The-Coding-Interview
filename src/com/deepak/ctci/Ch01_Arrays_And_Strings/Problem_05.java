@@ -46,7 +46,7 @@ public class Problem_05 {
 			/* Bigger string is the first parameter to this method */
 			return isRemovalEdit(input1, input2);
 		} else if (input1.length() + 1 == input2.length()) {
-			return isRemovalEdit(input2, input2);
+			return isRemovalEdit(input2, input1);
 		}
 		return false;
 	}
